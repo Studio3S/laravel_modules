@@ -1,0 +1,22 @@
+{
+    "name": "studio3s/modules",
+    "description": "A module package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Studio3S\\Modules\\": "src/Modules/"
+        },
+        "files": [
+            "src/Modules/Helpers/modules_helper.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "slym175",
+            "email": "thuyhu9876@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "version": "1.0.0",
+    "require": {}
+}
