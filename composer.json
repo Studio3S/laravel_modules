@@ -18,5 +18,14 @@
     ],
     "minimum-stability": "dev",
     "version": "1.0.0",
-    "require": {}
+    "require": {
+        "illuminate/support": "8.x-dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Studio3S\\Modules\\AppModuleServiceProvider"
+            ]
+        }
+    }
 }
